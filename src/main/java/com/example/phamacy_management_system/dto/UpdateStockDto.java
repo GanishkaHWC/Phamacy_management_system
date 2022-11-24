@@ -1,0 +1,15 @@
+package com.example.phamacy_management_system.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Data
+@Getter
+@AllArgsConstructor
+@Setter
+public class UpdateStockDto {
+    private  Integer id;
+    private Double quantity;
+}
